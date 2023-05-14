@@ -59,8 +59,8 @@ nav{
     display: flex;
     padding: 1.5% 2%; /*størrelse på heading!!!!*/
     justify-content: space-between;
-    align-items: center;
     position: relative;
+    
 }
 
 nav img{
@@ -99,6 +99,10 @@ nav .fa{
 }
 
 @media(max-width: 700px){
+
+    nav{
+        align-items: center;
+    }
 
     .nav-links ul li::after{
         height: 0px;
@@ -185,6 +189,15 @@ nav .fa{
     font-family: 'oswald';
     font-weight: 100;
     word-spacing: 10px;
+}
+
+.tekstIndex a{
+    font-family: 'oswald';
+    font-weight: 100;
+    font-size: 20px;
+    word-spacing: 10px;
+    text-decoration: none;
+    color: white;
 }
 
 
